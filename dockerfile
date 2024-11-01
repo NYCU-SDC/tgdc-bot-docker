@@ -6,4 +6,4 @@ COPY ./app/requirements.txt ./requirements.txt
 RUN pip install --upgrade pip
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
-CMD ["python", "main.py"]
+CMD ["python", "-u", "main.py"]
